@@ -23,8 +23,8 @@ func renderCells (_ cells: [[Int]]) -> Void {
 }
 ```
 
-Start game
+Start Game
+Second argument in `loopWithMatrix` is the frame refresh rate(seconds).
 ```
 loopWithMatrix(inputMatrix, 0.5, renderer: renderCells)
-
 ```
